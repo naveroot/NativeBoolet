@@ -1,0 +1,27 @@
+div class="row justify-content-center"
+  div class='col-md-12 text-center'
+    h1 = t('day.header')
+div class="row"
+  div class="card-columns"
+    = render @posts
+
+
+
+
+
+
+
+
+
+  /   h1 = t('day.header')
+  / = render @posts
+  /
+  / p
+  /   h3 ==t('day.happiness')
+  /   =@day_note.happiness
+  / p
+  /   h3 ==t('day.self_raiting')
+  /   =@day_note.self_raiting
+  / p
+  /   h3 ==t('day.habits')
+  /   =render @habits
